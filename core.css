@@ -14,17 +14,25 @@ img {
     padding: 1em;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    float: left;
+}
+
 @media all and (min-width: 1024px) {
     img {
-        float: left;
-        width: 33.33%;
+        width: 32.33%;
     }
 }
 
 @media all and (min-width: 600px) and (max-width: 1023px) {
     img {
-        float: left;
-        width: 50%;
+        width: 49%;
     }
 }
 
